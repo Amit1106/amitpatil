@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<style type="text/css">
+    .btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<style>
+.mySlides1 {display:none;}
+</style>
+<style>
+.mySlides2 {display:none;}
+</style>
+
+    <title>I'm Amit PAtil</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--div animation-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/Kunal.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/Kunal.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/Kunal.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/Kunal.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/Kunal.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/Kunal.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/Kunal.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/Kunal.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/Kunal.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/Kunal.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/Kunal.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/Kunal.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/Kunal.ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/Kunal.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/Kunal.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--imported fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!--div animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--lightbox-->
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <nav class="navbar fixed-top navbar-expand-lg pt-0">
+        <div class="container font-weight-bolder">
+            <a class="navbar-brand name_logo" href="#home"></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <a class="nav-link nav-item active" href="#home">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link nav-item" href="#about">ABOUT</a>
+                    <a class="nav-link nav-item" href="#gallery">GALLERY</a>
+                    <a class="nav-link nav-item" href="#events">EVENTS</a>
+                    <a class="nav-link nav-item" href="#contact">CONTACT US</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--header starts-->
+    <div class="header" id="home">
+        <!--header section starts-->
+        <section class="header_section">
+            <div class="info">
+                <h1 class="typewrite font-weight-bold" style="color: pink; font-family: 'Poppins', sans-serif;" data-period="1000" data-type='[ "Hi, myself Shubham patil", "I am a photographer", "I Love Photography" ]'>
+                    <span class="wrap"></span>
+                </h1>
+                <p>professional photography</p>
+            </div>
+        </section>
+        <!--header section ends-->
+    </div>
+    <!-- header ends-->
+    <!--About starts-->
+    <section >
+        <div class="row" id="about">
+            <div class="about_info col-lg-7 p-2" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="50">
+                <h2 class="text-capitalize text-muted font-weight-bold">Who am I?</h2>
+                <hr class="left_underline">
+                <p>I'm <b>Shubham Patil</b>, an Computer Science undergraduate (SUK), Kolhapur. I'm a Full Stack Web Developer and a Tech Enthusiast who loves everything which involves code. I love to explore all fields related to programming especially which involves Python and its modules. Apart from being a Tech Geek, I am an avid art lover and loves to try various artforms especially linux.</p>
+                <h3 class="text-center">Catch Me At</h3>
+                <div class="row">
+                    <div class="mx-auto">
+                        <a href="https://www.facebook.com/Shubham.patill/" target="_blank">
+                            <img src="assets/images/facebook.png" class="social_icon">
+                        </a>
+                        <a href="https://www.instagram.com/iot_web_project/" target="_blank">
+                        <img src="assets/images/instagram.png"  class="social_icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/shub6059/" target="_blank">
+                            <img src="assets/images/linkedin.png" class="social_icon">
+                        </a>
+                        <a href="mailto:shubham.patil.shub6059@gmail.com?subject=hallo shubham">
+                            <img src="assets/images/gmail.png" class="social_icon">
+                        </a>
+                        <a href="https://github.com/shub6059" target="_blank">
+                            <img src="assets/images/github.png" class="social_icon">
+                        </a>
+                    </div>
+                </div>
+                <!-- <a href="#" class="btn btn-outline-info" onclick="alert('Function not available')">Download Cv</a> -->
+            </div>
+            <div class="col-lg-5 skills" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="50">
+                <h2 class="text-capitalize mb-4 text-muted font-weight-bold">My Skills</h2>
+                <hr class="left_underline">
+                <div style="display: flex; flex-wrap: wrap;">
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <i class="devicon-c-line-wordmark colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-down" data-aos-delay="500">
+                        <i class="devicon-html5-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <i class="devicon-css3-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-down" data-aos-delay="500">
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-down" data-aos-delay="500">
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <i class="devicon-jquery-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-down" data-aos-delay="500">
+                        <i class="devicon-vuejs-plain-wordmark colored"></i></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <img src="https://img.icons8.com/color/72/000000/python.png" />
+                    </div>
+                    <div class="skillicon" data-aos="flip-down" data-aos-delay="500">
+                        <i class="devicon-django-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <i class="devicon-nodejs-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-down" data-aos-delay="500">
+                        <i class="devicon-express-original colored"></i>
+                    </div>
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-3 mb-4" style="background:#f7f7f9;">
+            <center>
+            <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <h2 class="text-center text-capitalize text-muted m-2 font-weight-bold" >Art means the world to me</h2>
+            <hr class="center_underline">
+            </div>
+            </center>
+            <div class="row">
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                  <!--   <a href="assets/art/1.jpg" data-lightbox="art_gallery" data-title="Doodling"><img alt="picture" src="assets/art/1.jpg" class="img-fluid art" alt="Doodling"></a> -->
+                </figure>
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                 <!--    <a href="assets/art/2.jpg" data-lightbox="art_gallery" data-title="Doodling"><img alt="picture" src="assets/art/2.jpg" class="img-fluid art" alt="Doodling"></a> -->
+                </figure>
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                    <!-- <a href="assets/art/3.jpg" data-lightbox="art_gallery" data-title="Scribbling"><img alt="picture" src="assets/art/3.jpg" class="img-fluid art" alt="Scribbling"></a> -->
+                </figure>
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                 <!--    <a href="assets/art/4.jpg" data-lightbox="art_gallery" data-title="Hatching"><img alt="picture" src="assets/art/4.jpg" class="img-fluid art" alt="Hatching"></a> -->
+                </figure>
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                 <!--    <a href="assets/art/5.jpg" data-lightbox="art_gallery" data-title="Hatching"><img alt="picture" src="assets/art/5.jpg" class="img-fluid art" alt="Hatching"></a> -->
+                </figure>
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                 <!--    <a href="assets/art/6.jpg" data-lightbox="art_gallery" data-title="Zentangle Art"><img alt="picture" src="assets/art/6.jpg" class="img-fluid art" alt="Zentangle Art"></a> -->
+                </figure>
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                <!--     <a href="assets/art/7.jpg" data-lightbox="art_gallery" data-title="FaceArt(Rebecca Ferguson)"><img alt="picture" src="assets/art/7.jpg" class="img-fluid art" alt="FaceArt"></a> -->
+                </figure>
+                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
+                 <!--    <a href="assets/art/9.jpg" data-lightbox="art_gallery" data-title="Chalk Carving"><img alt="picture" src="assets/art/9.jpg" class="img-fluid art" alt="Chalk Carving"></a> -->
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!--about ends-->
+
+    <!--gallery starts-->
+    <section class="projects container" id="gallery">
+        <div class="container">
+    <div class="row">
+        <div class="row" data-aos="fade-right" data-aos-delay="20" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/1.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/1.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/2.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/2.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/3.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/3.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/4.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/4.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/5.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/5.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/6.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/6.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/7.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/7.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/8.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/8.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/9.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/9.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/1.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/1.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/2.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/2.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/6.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/6.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="image-gallery-title"></h4>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                        </button>
+
+                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+    <!--gallery ends-->
+    <!--projects starts-->
+    <section class="projects container" id="events">
+        <center>
+        <div data-aos="fade-up" data-aos-delay="20" data-aos-duration="500" data-aos-easing="ease-in-out">
+        <h2 class="text-muted text-capitalize text-center mb-2 font-weight-bold" >What I've done so far</h2>
+        <hr class="center_underline">
+        </div>
+        </center>
+         <div class="row">
+
+            <div class="project col-12 col-md-6 col-lg-4 col-sm-6 w3-container">
+                <div class="single_card card text-center w3-content w3-section" data-aos="zoom-out-up">
+                    <div class="w3-content w3-section" style="max-width:330px">
+                    <img class="mySlides w3-animate-middle" src="assets/images/4.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides w3-animate-middle" src="assets/images/5.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides w3-animate-middle" src="assets/images/6.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">marrage fuction</h5>
+                       
+                        <a href="" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Home</strong></a>
+                        <a href="" class="btn btn-outline-dark mt-1" target="_blank"><img src="assets/images/www.png" class="img-fluid" width="30px"><strong>Contact Now</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+            <div class="project col-12 col-md-6 col-lg-4 col-sm-6 w3-container">
+                <div class="single_card card text-center w3-content w3-section" data-aos="zoom-out-up">
+                    <div class="w3-content w3-section" style="max-width:330px">
+                    <img class="mySlides1 w3-animate-middle" src="assets/images/7.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides1 w3-animate-middle" src="assets/images/8.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides1 w3-animate-middle" src="assets/images/9.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">birth fuction</h5>
+                       
+                        <a href="" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Home</strong></a>
+                        <a href="" class="btn btn-outline-dark mt-1" target="_blank"><img src="assets/images/www.png" class="img-fluid" width="30px"><strong>Contact Now</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="project col-12 col-md-6 col-lg-4 col-sm-6 w3-container">
+                <div class="single_card card text-center w3-content w3-section" data-aos="zoom-out-up">
+                    <div class="w3-content w3-section" style="max-width:330px">
+                    <img class="mySlides2 w3-animate-middle" src="assets/images/1.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides2 w3-animate-middle" src="assets/images/2.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides2 w3-animate-middle" src="assets/images/3.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">party fuction</h5>
+                       
+                        <a href="" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Home</strong></a>
+                        <a href="" class="btn btn-outline-dark mt-1" target="_blank"><img src="assets/images/www.png" class="img-fluid" width="30px"><strong>Contact Now</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+        <h1 class="display-6 text-muted text-center m-4">...and many more projects</h1>
+    </section>
+    <!--projects ends-->
+    <!-- Footer starts -->
+    <footer>
+        
+            <div class="row col-12">
+                <div class="col-md-12 pt-5">
+                    <div class="mb-4 text-center">
+                        <ul class="icons">
+                            <a href="https://www.facebook.com/shubham.patill/" target="_blank">
+                                <li><i class="fa fa-facebook"> </i></li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/shub6059/" target="_blank">
+                                <li><i class="fa fa-linkedin"> </i></li>
+                            </a>
+                            <a href="https://www.instagram.com/iot_web_project/" target="_blank">
+                                <li><i class="fa fa-instagram"> </i></li>
+                            </a>
+                            <a href="https://github.com/shub6059" target="_blank">
+                                <li><i class="fa fa-github"> </i></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="https://github.com/shub6059/shub6059.github.io" target="_blank" class="btn btn-light"><img src="assets/images/code2.png" width="20px"> <span style="font-family: 'Lato', sans-serif;">Source Code</span></a>
+            </div>
+            <hr>
+            <div class="credit text-center text-white pb-4">Designed and Developed by <strong>Amit Patil</strong> with <i class="fa fa-heart"></i>
+            </div>
+            <div class="scrolltop float-right">
+                <i class="fa fa-arrow-up" onclick="topFunction()" id="topbtn"></i>
+            </div>
+        
+    </footer>
+    <!-- Footer ends -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3500);    
+}
+</script>
+
+<script>
+var myIndex1 = 0;
+carousel1();
+
+function carousel1() {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex1++;
+  if (myIndex1 > x.length) {myIndex1 = 1}    
+  x[myIndex1-1].style.display = "block";  
+  setTimeout(carousel1, 4500);    
+}
+</script>
+
+<script>
+var myIndex3 = 0;
+carousel2();
+
+function carousel2() {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex3++;
+  if (myIndex3 > x.length) {myIndex3 = 1}    
+  x[myIndex3-1].style.display = "block";  
+  setTimeout(carousel2, 5500);    
+}
+</script>
+
+<script type="text/javascript">
+    let modalId = $('#image-gallery');
+
+$(document)
+  .ready(function () {
+
+    loadGallery(true, 'a.thumbnail');
+
+    //This function disables buttons when needed
+    function disableButtons(counter_max, counter_current) {
+      $('#show-previous-image, #show-next-image')
+        .show();
+      if (counter_max === counter_current) {
+        $('#show-next-image')
+          .hide();
+      } else if (counter_current === 1) {
+        $('#show-previous-image')
+          .hide();
+      }
+    }
+
+    /**
+     *
+     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+     * @param setClickAttr  Sets the attribute for the click handler.
+     */
+
+    function loadGallery(setIDs, setClickAttr) {
+      let current_image,
+        selector,
+        counter = 0;
+
+      $('#show-next-image, #show-previous-image')
+        .click(function () {
+          if ($(this)
+            .attr('id') === 'show-previous-image') {
+            current_image--;
+          } else {
+            current_image++;
+          }
+
+          selector = $('[data-image-id="' + current_image + '"]');
+          updateGallery(selector);
+        });
+
+      function updateGallery(selector) {
+        let $sel = selector;
+        current_image = $sel.data('image-id');
+        $('#image-gallery-title')
+          .text($sel.data('title'));
+        $('#image-gallery-image')
+          .attr('src', $sel.data('image'));
+        disableButtons(counter, $sel.data('image-id'));
+      }
+
+      if (setIDs == true) {
+        $('[data-image-id]')
+          .each(function () {
+            counter++;
+            $(this)
+              .attr('data-image-id', counter);
+          });
+      }
+      $(setClickAttr)
+        .on('click', function () {
+          updateGallery($(this));
+        });
+    }
+  });
+
+// build key actions
+$(document)
+  .keydown(function (e) {
+    switch (e.which) {
+      case 37: // left
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
+          $('#show-previous-image')
+            .click();
+        }
+        break;
+
+      case 39: // right
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
+          $('#show-next-image')
+            .click();
+        }
+        break;
+
+      default:
+        return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+  });
+
+</script>
+
+</body>
+
+</html>
